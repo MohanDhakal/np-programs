@@ -1,0 +1,13 @@
+client server group chatting application:
+
+features:
+
+1. Maximum of 10 clients can be connected to a server.
+2. server can be startted with (./server -p <port-number>)
+3. client can be connected with (./client -h <IP Address> -p <port-number> -u <username>)
+4. client can send message to server
+5. server delivers the particular message to the connected client expect the sender.
+6. using 'quit' as a message client can left the group chat.
+7. server will be notified of who left and maintains the list accordingly.
+
+/* error still exists help improve it*/
